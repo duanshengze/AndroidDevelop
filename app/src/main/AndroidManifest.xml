@@ -11,12 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.DownloadServiceActivity">
+
+        </activity>
+        <activity android:name=".vogella.activity.DownloadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <service android:name=".service.DownloadService"></service>
+        <service android:name=".vogella.service.DownloadService"></service>
     </application>
 
 </manifest>
